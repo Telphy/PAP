@@ -1,0 +1,33 @@
+Executing SQL script in server
+ERROR: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VISIBLE,
+  CONSTRAINT `fk_Clientes_TipoCliente1`
+    FOREIGN KEY (`idTipoCliente' at line 16
+SQL Code:
+        -- -----------------------------------------------------
+        -- Table `oficinaauto`.`Clientes`
+        -- -----------------------------------------------------
+        CREATE TABLE IF NOT EXISTS `oficinaauto`.`Clientes` (
+          `idCliente` INT(11) NOT NULL,
+          `idTipoCliente` INT(6) NOT NULL,
+          `PrimeiroNome` VARCHAR(45) NOT NULL,
+          `UltimoNome` VARCHAR(45) NOT NULL,
+          `Idade` INT(3) NOT NULL,
+          `Morada` VARCHAR(90) NOT NULL,
+          `profissao` VARCHAR(40) NOT NULL,
+          `Telemovel` INT(9) NOT NULL,
+          `Telefone` INT(9) NOT NULL,
+          `Email` VARCHAR(45) NOT NULL,
+          PRIMARY KEY (`idCliente`),
+          INDEX `fk_Clientes_TipoCliente1_idx` (`idTipoCliente` ASC) VISIBLE,
+          CONSTRAINT `fk_Clientes_TipoCliente1`
+            FOREIGN KEY (`idTipoCliente`)
+            REFERENCES `oficinaauto`.`TipoCliente` (`idTipoCliente`)
+            ON DELETE NO ACTION
+            ON UPDATE NO ACTION)
+        ENGINE = InnoDB
+        DEFAULT CHARACTER SET = utf8
+
+SQL script execution finished: statements: 7 succeeded, 1 failed
+
+Fetching back view definitions in final form.
+Nothing to fetch

@@ -1,0 +1,3 @@
+Este erro ocorreu devido a um erro ou syntax incorreta dentro do proprio mysql workbench, pesquisei pelo mesmo erro que dava nas logs, e todos os comentarios diziam,
+para alterar a versao do WorkBench MySQL para poder proceguir com o foward enginering. Para resolver Server>Server Status e apartir dai ver a versao em que eu estava na 8.0.28)
+e modifiquei para a 5.7.21. apartir de Edit Preferences > Modeling > MySQL > Default Target MySQL Version e modificar para a versão que aconselhavao
