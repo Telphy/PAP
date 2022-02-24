@@ -1,0 +1,1 @@
+INSERT INTO `oficina`.`intervencoes` (`idIntervencao`, `Matricula`, `Descricao`, `Estado`, `DataEntrada`) VALUES ('1', '15vd78', 'A viatura sofreu um acidente contra uma parede, as pecas danificadas foram o farol frontal esquerdo, capo e para-choques, e o para-brisas, e necessita de ser trocadas e pintadas ', 'Pendente', '2022-2-17');
