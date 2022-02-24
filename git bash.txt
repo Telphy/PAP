@@ -1,0 +1,11 @@
+atualizar o repositorio no git hub
+
+git status
+git add .
+git commit -m "commit"
+git push origin main
+
+atualizar a pasta local
+
+git status
+git pull origin main
