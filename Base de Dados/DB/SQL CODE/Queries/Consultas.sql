@@ -1,8 +1,8 @@
-#1 Mostrar as viaturas que um determinado cliente possui
+#1 Mostrar as viaturas que um determinado cliente possui neste caso o cliente com id 1
 SELECT C.Nome, V.Matricula
 FROM Clientes C, Viaturas V
 WHERE C.idCliente = V.idCliente
-AND C.idCliente = 5;
+AND C.idCliente = 1;
 
 #2 Quais as intervencoes pendentes
 SELECT C.Nome, I.Matricula, I.Descricao, I.Estado
@@ -39,3 +39,7 @@ VALUES(2,1,1,1);
 
 INSERT INTO intervencao_servico(idIntervencao,idServico,idFuncionario,Horas)
 VALUES(3,1,1,0.5);
+
+#7 Consultar os dados de um cliente
+
+SELECT
