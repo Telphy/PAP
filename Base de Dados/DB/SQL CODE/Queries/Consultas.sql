@@ -40,6 +40,16 @@ VALUES(2,1,1,1);
 INSERT INTO intervencao_servico(idIntervencao,idServico,idFuncionario,Horas)
 VALUES(3,1,1,0.5);
 
-#7 Consultar os dados de um cliente
+#7 Consultar os dados de um cliente pelo Telemovel
 
-SELECT
+SELECT Nome, DataNascimento, Morada, DataNascimento, Telemovel, Telefone, Email
+FROM Clientes
+WHERE Telemovel ='925675234';
+
+#8 Criar vista que mostre as viaturas que um determinado cliente possui neste caso o cliente com id 1
+
+CREATE VIEW QuantasViaturasCliente AS 
+SELECT C.Nome, V.Matricula
+FROM Clientes C, Viaturas V
+WHERE C.idCliente = V.idCliente
+AND C.idCliente = 1;
