@@ -1,0 +1,2 @@
+Primeiramente, quando o cliente chega a oficina, temos duas perguntas, se é cliente da casa, se a resposta for sim, o funcionario terá que realizar uma consulta cuje tem 
+perguntar pelo número de telémovel
