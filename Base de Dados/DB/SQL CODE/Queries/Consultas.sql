@@ -53,3 +53,42 @@ SELECT C.Nome, V.Matricula
 FROM Clientes C, Viaturas V
 WHERE C.idCliente = V.idCliente
 AND C.idCliente = 1;
+
+#9 Alterar o nome de alguem
+UPDATE `oficinapap`.`clientes` SET `Nome` = 'Helder Atilano Sousa' WHERE (`idCliente` = '9');
+
+#10 Remover um viatura
+DELETE FROM viaturas WHERE Matricula='1';
+
+#11 Procurar uma viatura que foram fabricadas em 2017
+SELECT C.Nome, V.Matricula , V.DataFabricacao, V.Marca, V.Modelo, V.Cor
+FROM Clientes C, Viaturas V
+WHERE C.idCliente = V.idCliente
+AND DataFabricacao >= '2017-01-01' AND DataFabricacao <= '2017-12-30';
+
+#12 Procurar uma Intrevenção que foi realizada em certa data
+SELECT I.idIntervencao, C.Nome, I.Matricula, I.DataPendente as "Data Realizada a Intervencao"
+FROM Clientes C, intervencoes I, Viaturas V
+WHERE V.Matricula = I.Matricula
+AND V.idCliente = C.idCliente
+AND I.DataPendente = '2022-02-24';
+
+#13 Contar quantos clientes a oficina tem Registrado
+SELECT COUNT(Clientes.Nome) AS "Número De Clientes"
+FROM clientes;
+
+#14 Qual e o Cliente que possui mais carros da Oficinas !!!!!! Não Completa
+
+SELECT C.Nome, V.Matricula
+FROM clientes C, viaturas V
+WHERE  C.idCliente = V.idCliente
+AND V.Matricula = 
+	(SELECT MAX(V.Matricula)
+	FROM viaturas V);
+
+#15 Listar todos os Clientes com Fords
+
+SELECT C.Nome, V.Matricula, V.Marca, V.Modelo
+FROM Clientes C, Viaturas V
+WHERE V.idCliente = C.idCliente
+AND V.Marca = 'ford';
