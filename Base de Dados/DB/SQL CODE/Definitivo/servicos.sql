@@ -10,4 +10,7 @@ INSERT INTO `oficinapap`.`servicos` (`Servico`, `Descricao`, `PrecoHr`) VALUES (
 INSERT INTO `oficinapap`.`servicos` (`Servico`, `Descricao`, `PrecoHr`) VALUES ('Bate-chapa', 'Realizar serviço bate-chapa para reparar ou substituir uma peça', '32');
 INSERT INTO `oficinapap`.`servicos` (`Servico`, `Descricao`, `PrecoHr`) VALUES ('Soldagem', 'Soldar as peças da viatura', '32');
 INSERT INTO `oficinapap`.`servicos` (`Servico`, `Descricao`, `PrecoHr`) VALUES ('Reparação de Inundação', 'Aplicação de polimento ', '25');
+INSERT INTO `oficinapap`.`servicos` (`Servico`, `Descricao`, `PrecoHr`) VALUES ('Substituição', 'Realizar um simples substituição', '15');
+INSERT INTO `oficinapap`.`servicos` (`Servico`, `Descricao`, `PrecoHr`) VALUES ('Recarregar Bataria', 'Fazer o carregamento a bataria da viatura', '25');
+
 

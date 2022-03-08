@@ -1,6 +1,6 @@
-INSERT INTO `oficinapap`.`pecas` (`Peca`, `Modelo`, `Marca`, `Preco`) VALUES ('Capo', 'Fiesta 2013', 'Ford', '129');
-INSERT INTO `oficinapap`.`pecas` (`Peca`, `Modelo`, `Marca`, `Preco`) VALUES ('Farol', 'Fiesta 2013 / Esquerdo Frontal', 'Ford', '48');
-INSERT INTO `oficinapap`.`pecas` (`Peca`, `Modelo`, `Marca`, `Preco`) VALUES ('Para-Brisas', 'Fiesta 2013', 'Ford', '130');
-INSERT INTO `oficinapap`.`pecas` (`Peca`, `Modelo`, `Marca`, `Preco`) VALUES ('Porta', 'AMG Classe A / Porta direita', 'Mercedes', '86');
-INSERT INTO `oficinapap`.`pecas` (`Peca`, `Modelo`, `Marca`, `Preco`) VALUES ('Retrovisor', 'AMG Classe A / Direito', 'Mercedes', '45');
-INSERT INTO `oficinapap`.`pecas` (`Peca`, `Modelo`, `Marca`, `Preco`) VALUES ('Para-choques', '3008 / Frontal', 'Pegeot', '99');
+INSERT INTO `oficinapap`.`pecas` (`idPecas`, `Peca`, `Modelo`, `Marca`, `Preco`) VALUES ('1', 'Capô', '500', 'FIAT', '260');
+INSERT INTO `oficinapap`.`pecas` (`idPecas`, `Peca`, `Modelo`, `Marca`, `Preco`) VALUES ('2', 'Retroviso', 'FIESTA 2013', 'FORD', '65');
+INSERT INTO `oficinapap`.`pecas` (`idPecas`, `Peca`, `Modelo`, `Marca`, `Preco`) VALUES ('3', 'Vidro', 'FOCUS', 'FORD', '190');
+INSERT INTO `oficinapap`.`pecas` (`idPecas`, `Peca`, `Modelo`, `Marca`, `Preco`) VALUES ('4', 'Farol', 'GLB200D R', 'MERCEDES', '79');
+INSERT INTO `oficinapap`.`pecas` (`idPecas`, `Peca`, `Modelo`, `Marca`, `Preco`) VALUES ('5', 'Farol', 'GLB200D L', 'MERCEDES', '79');
+INSERT INTO `oficinapap`.`pecas` (`idPecas`, `Peca`, `Modelo`, `Marca`, `Preco`) VALUES ('6', 'Matricula', 'NONE', 'NONE', '30');
