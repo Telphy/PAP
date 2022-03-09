@@ -1,0 +1,21 @@
+3/8 - 
+
+Realizar 15 consultas ( Feito ) Meta - Chegar as 20 consultas
+Inserir 20 carros para 19 clientes ( Feito )
+Inserir intervenções para as viaturas, incluindo, serviços, peças de carros, e materiais
+Arranjar o PowerPoint
+
+Não concluido
+consulta 14#
+trigger para ativar data pendente	
+
+
+Para depois! - 
+
+Trocar a idade para Data de nascimento dos clientes
+Matricula tem de ser no Formato xx-xx-11
+
+
+Ideias futuras -
+
+Adicionar Data de Registro do Cliente
