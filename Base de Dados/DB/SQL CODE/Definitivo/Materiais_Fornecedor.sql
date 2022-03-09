@@ -1,4 +1,12 @@
-INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('1', '1');
-INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('2', '2');
-INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('2', '3');
-INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('2', '4');
+INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('1', '14');
+INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('1', '15');
+INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('1', '16');
+INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('1', '18');
+INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('2', '19');
+INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('2', '20');
+INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('2', '21');
+INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('2', '23');
+INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('3', '24');
+INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('3', '25');
+INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('3', '26');
+INSERT INTO `oficinapap`.`matereais_fornecedor` (`idFornecedor`, `idMaterial`) VALUES ('3', '27');

@@ -49,3 +49,5 @@ INSERT INTO `oficinapap`.`intervencao_servico` (`idIntervencao`, `idServico`, `i
 INSERT INTO `oficinapap`.`intervencao_servico` (`idIntervencao`, `idServico`, `idFuncionario`, `Horas`) VALUES ('20', '9', '6', '6');
 INSERT INTO `oficinapap`.`intervencao_servico` (`idIntervencao`, `idServico`, `idFuncionario`, `Horas`) VALUES ('21', '9', '5', '5');
 INSERT INTO `oficinapap`.`intervencao_servico` (`idIntervencao`, `idServico`, `idFuncionario`, `Horas`) VALUES ('22', '1', '2', '0.50');
+INSERT INTO `oficinapap`.`intervencao_servico` (`idIntervencao`, `idServico`, `idFuncionario`, `Horas`) VALUES ('5', '6', '5', '3');
+INSERT INTO `oficinapap`.`intervencao_servico` (`idIntervencao`, `idServico`, `idFuncionario`, `Horas`) VALUES ('10', '6', '5', '3');

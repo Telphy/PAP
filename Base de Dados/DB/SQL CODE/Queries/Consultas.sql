@@ -64,9 +64,10 @@ DELETE FROM viaturas WHERE Matricula='1';
 SELECT C.Nome, V.Matricula , V.DataFabricacao, V.Marca, V.Modelo, V.Cor
 FROM Clientes C, Viaturas V
 WHERE C.idCliente = V.idCliente
-AND DataFabricacao >= '2017-01-01' AND DataFabricacao <= '2017-12-30';
+AND YEAR(DataFabricacao) = '2017';
+-- AND DataFabricacao >= '2017-01-01' AND DataFabricacao <= '2017-12-30';
 
-#12 Procurar uma Intrevenção que foi realizada em certa data
+#12 Procurar uma Intrevenção que foi iniciada em certa data
 SELECT I.idIntervencao, C.Nome, I.Matricula, I.DataPendente as "Data Realizada a Intervencao"
 FROM Clientes C, intervencoes I, Viaturas V
 WHERE V.Matricula = I.Matricula
@@ -86,9 +87,3 @@ AND V.Matricula =
 	(SELECT MAX(V.Matricula)
 	FROM viaturas V);
 
-#15 Listar todos os Clientes com Fords
-
-SELECT C.Nome, V.Matricula, V.Marca, V.Modelo
-FROM Clientes C, Viaturas V
-WHERE V.idCliente = C.idCliente
-AND V.Marca = 'ford';

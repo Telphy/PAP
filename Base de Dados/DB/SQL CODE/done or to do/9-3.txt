@@ -1,0 +1,101 @@
+1 - mecanica
+.1 rolamento
+
+2- Inundaça
+.1 cola de tubo
+
+3 - Revisão, Mecanica polimento e in lvg
+.OLeo de motor
+.Lata de polimento 1/4
+
+4 - Lixagem, Primario, pintura polimento e int lvg
+.lixa/s 400p
+.lixa/s 340p
+.lixa/s 180p
+.Massas de ferro
+.1L primario
+.1L lata de tinta 296 (FIAT 500) LARANJA
+.Lata de polimento 1/4
+
+5 - batechapa, novo capo polimento e int asdddddddd lvg
+.lixa/s 400p
+.lixa/s 340p
+.lixa/s 180p
+.Massas de ferro 2/4
+.0.3L primario
+.0.6L lata de tinta 551 (FIAT TIPO) LARANJA
+.Lata de polimento 1/4
+
+6  novo retrovisor, substituição dddddddddddddddddd
+
+7 - manutenção polimento e int lvg
+.Lata de polimento 1/4
+
+8 - instalação, vidro novo dddddddddddd lvg
+.Freeze de vidro
+
+9 - Mecanica
+.Filtro
+
+10 - bate chapa, 2 farois e matricula nova polimento e int ddddddddddd lvg
+.lixa/s 400p
+.lixa/s 340p
+.lixa/s 180p
+.Massa de ferro 2/4
+.0.3L primario
+.0.3L lata de tinta 729 (Mercedes Volvo X40) Branco
+.Lata de polimento 1/4
+
+11 - revisão polimento e int lvg
+.Lata de polimento 1/4
+
+
+12 -Recarregar bateria
+
+13 inundaçao polimento e int lvg
+.1 cola de tubo
+.Lata de polimento 1/4
+	
+14 manutençao lavg ext e int
+.1  Lata de cera
+
+15 substituiçao, oleo 
+.1 lata de oleo
+
+16 revisao lavg ext e int
+
+
+17 inundaçao lavg ext e int
+.1 cola de tubo
+
+18 revisao lavg ext e int
+
+
+19  Lixagem, Primario, pintura lavg ext e int
+.lixa/s 400p
+.lixa/s 340p
+.lixa/s 180p
+.Massa de ferro 3/4
+.0.3L primario
+.0.3L lata de tinta 729 (Mercedes Volvo X40) Branco
+
+20 manutençao
+
+21 revisao
+
+22 substituiçao da agua do radiador
+1. Liquido de Cooling para Radiador
+
+
+5 15DR15 FIAT 500 
+6 15VD78 FORD FIESTA 2013
+8 35ef85 FORD FOCUS
+10 5167ge Mercedes glb200d
+
+
+14 - 28	
+
+falta fazer os materiais, fornecedor materiais e materiais intervençao
+
+materiais
+Lata de Polimento 500
